@@ -7,3 +7,4 @@ Feature: Facebook Login page
     Given Open Facebook application
     Then Verify Email texbox is displayed
     And Verify Password textbox is displayed
+    And Close application
