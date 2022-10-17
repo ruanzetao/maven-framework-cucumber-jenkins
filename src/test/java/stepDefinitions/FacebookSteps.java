@@ -16,6 +16,7 @@ public class FacebookSteps {
 
 	@Given("^Open Facebook application$")
 	public void openFacebookApplication() {
+
 		WebDriverManager.firefoxdriver().setup();
 		driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/");
