@@ -37,6 +37,5 @@ public class FacebookSteps {
 	@Then("^Close application$")
 	public void closeApplication() {
 		driver.quit();
-
 	}
 }
